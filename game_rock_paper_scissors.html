@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock_paper_scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>GRA PAPIER-NOŻYCZKI-KAMIEŃ</h1>
+    <div class=" select">
+        <h3 class="optionChange">WYBIERZ OPCJĘ</h3>
+        <div class="images">
+            <img src="/img/nozyczki.jpg" alt="scissors" data-option="nożyczki"> 
+            <img src="/img/kamien.jpg" alt="stone" data-option="kamień">
+            <img src="/img/papier.jpg" alt="paper" data-option="papier">
+        </div>
+
+    </div>
+
+    <button class="start">Zagraj</button>
+    <button class="newGame">Nowa gra</button>
+
+    <div class="mainSection">
+        <div class="leftBar">
+            <h3>WYNIK GRY</h3>
+            <p>Twój wybór:<span data-summary="yourChoice"></span></p>
+            <p>Wybór komputera: <span data-summary="computerChoice"></span></p>
+            <h2>ZWYCIĘZCA TO:<span data-summary="winner"></span></h2>
+        </div>
+
+        <div class="rightBar">
+            <h3>PODSUMOWANIE</h3>
+            <p class="gameNumber">Liczba gier: <span>0</span></p>
+            <p class=" wins">Wygrane: <span>0</span></p>
+            <p class="losses">Przegrane: <span>0</span></p>
+            <p class="draws">Remisy: <span>0</span></p>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

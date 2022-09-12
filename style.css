@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+h3 {
+       margin: 30px 0;
+}
+.optionChange{
+    text-align: center;
+}
+
+.mainSection {
+    display: flex;
+    margin: 30px auto; 
+    width: 75%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.leftBar
+.rightBar {
+    
+    border: 5px solid red;
+    box-shadow:inset;
+    
+
+}
+button{
+    display: block;
+    margin:30px auto 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 10px 30px;
+    background-color: darkgray;
+ }
+ button:hover{
+    background-color: aquamarine;
+    border:2px solid darkslategray;
+ }
+ .newGame{
+    font-size: 15px;
+    margin: 5px auto;
+
+ }
+ p{
+    font-size: 20px;
+    line-height: 30px;;
+ }
+
+ .leftBar h2 {
+    margin: 50px 0;
+ }
+ .images{
+    margin:auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+.leftBar h2 span {
+    color:red;
+    text-transform: uppercase;
+
+}
